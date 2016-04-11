@@ -1,6 +1,6 @@
 <h3>Django Hacktorial - 13 April 2016</h3>
 <h5>Presented by Kunal Sharma</h5>
-<br><br>
+<img src="https://raw.githubusercontent.com/TerrapinHackers/Django-hacktorial/master/django.jpg">
 <div>
 This repository contains the checkpoints for the Django hacktorial (The livestream/video will be added here once the hacktorial begins).
 </div>
