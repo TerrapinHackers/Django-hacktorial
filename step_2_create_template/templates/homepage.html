@@ -1,0 +1,20 @@
+<html>
+    <body>
+        <div class="homepage-title">
+            My Personal Blog
+        </div>
+        {% for entry in entries %}
+          <div class="title">
+               {{ entry.title  }}
+          </div>
+          <div class="date">
+               {{ entry.date }}
+          </div>
+          <div class="content">
+               {{ entry.content }}
+          </div>
+        {% endfor %}
+    </body>
+</html>
+
+

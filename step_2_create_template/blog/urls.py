@@ -17,5 +17,7 @@ from django.conf.urls import include, url
 from django.contrib import admin
 
 urlpatterns = [
+    url(r'^$', 'blog_content.views.render_homepage', name='home'),
+    url(r'^posts/(?P<entry_id>[0-9]+)', 'blog_content.views.render_blogentry_page', name='blog_entry'),
     url(r'^admin/', include(admin.site.urls)),
 ]

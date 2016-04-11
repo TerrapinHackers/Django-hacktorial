@@ -2,6 +2,10 @@
 
 In this step, we have:
 
--Set up templates on this app:
--Created a template for the homepage and individial blogview pages
+<div>
+    -Set up templates on this app:
+</div>
+<div>
+    -Created a template for the homepage and individial blogview pages
+</div>
 
