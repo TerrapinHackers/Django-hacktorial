@@ -21,3 +21,11 @@ In this step, we have:
  python manage.py shell
 ```
 
+<div>
+    -Create a superuser
+</div>
+
+<div>
+    -Add blog Entries to the Admin interface, so we can create blog entries as an admin
+</div>
+
