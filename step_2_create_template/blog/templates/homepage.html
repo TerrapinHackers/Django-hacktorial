@@ -4,9 +4,11 @@
             My Personal Blog
         </div>
         {% for entry in entries %}
-          <div class="title">
-               {{ entry.title  }}
-          </div>
+          <a href="/posts/{{ entry.id }}">
+              <div class="title">
+                  {{ entry.title  }}
+              </div>
+          </a>
           <div class="date">
                {{ entry.date }}
           </div>

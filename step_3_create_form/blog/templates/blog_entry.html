@@ -1,0 +1,34 @@
+<html>
+    <body>
+        <div class="title">
+             {{ entry.title }}
+        </div>
+        <div class="date">
+             {{ entry.date }}
+        </div>
+        <div class="content">
+             {{ entry.content }}
+        </div>
+
+        <div class="comments">
+            <div class="comments-title">
+                 Comments
+            </div>
+            {% for comment in comments %}
+                <div class="comment-name">
+                     {{ comment.name }}
+                </div>
+                <div class="comment-date">
+                     {{ comment.date }}
+                </div>
+                <div class="comment-content">
+                     {{ comment.content }}
+                </div>
+            {% endfor %}
+
+        </div>
+    </body>
+</html>
+
+
+
