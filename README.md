@@ -7,7 +7,7 @@ This repository contains the checkpoints for the Django hacktorial (The livestre
 
 <h4>Checkpoints</h4>
 
-<div><b>Step 0: </b>Creating a blank django application</div>
+<div><b><a href="https://github.com/TerrapinHackers/Django-hacktorial/tree/master/step_0_new_project">Step 0:</a> </b>Creating a blank django application</div>
 
 
 <div><b>Final: </b>The finished application</div>
