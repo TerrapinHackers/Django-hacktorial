@@ -25,7 +25,12 @@
                      {{ comment.content }}
                 </div>
             {% endfor %}
-
+            <form action="/posts/{{ entry_id }}" method="post" enctype="multipart/form-data">
+                {% csrf_token %}
+                {{ form }}
+                {{ form.errors }}
+                <input type="submit">
+            </form>
         </div>
     </body>
 </html>
