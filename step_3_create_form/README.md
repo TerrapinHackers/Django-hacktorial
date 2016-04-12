@@ -1,4 +1,4 @@
-<h2>Step 0</h2>
+<h2>Step 3</h2>
 
 In this step, we have:
 
