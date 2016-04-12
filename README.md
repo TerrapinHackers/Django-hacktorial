@@ -18,5 +18,5 @@ This repository contains the checkpoints for the Django hacktorial (The livestre
 <div><b><a href="https://github.com/TerrapinHackers/Django-hacktorial/tree/master/step_4_add_styling">Step 4:</a> </b>Add styles</div>
 
 
-<div><b>Final: </b>The finished application</div>
+<div><b>Step 5: </b>Deploy to Heroku</div>
 
