@@ -1,0 +1,49 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,300|Open+Sans:400,600);
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+}
+
+.homepage-title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+.title {
+    text-align: center;
+    font-size: 27px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.date,.comment-date {
+    color: #AAA;
+    text-align:center;
+}
+
+.comment-date {
+    text-align: left;
+}
+
+.comment-name {
+    font-size: 25px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.comment-content {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.comments {
+    width: 80%;
+    margin: auto;
+}
+
+.content {
+   width: 80%;
+   margin: auto;    
+   padding-top: 20px;
+}
+

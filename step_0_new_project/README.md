@@ -6,7 +6,7 @@ In this step, we have:
 
 
 ```bash
- django_admin.py startproject blog
+django-admin startproject --template=https://github.com/heroku/heroku-django-template/archive/master.zip --name=Procfile  blog
 ```
 
 

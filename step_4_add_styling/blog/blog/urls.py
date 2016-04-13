@@ -15,9 +15,11 @@ Including another URLconf
 """
 from django.conf.urls import include, url
 from django.contrib import admin
+from django.conf import settings
+from django.conf.urls.static import static
 
 urlpatterns = [
     url(r'^$', 'blog_content.views.render_homepage', name='home'),
     url(r'^posts/(?P<entry_id>[0-9]+)', 'blog_content.views.render_blogentry_page', name='blog_entry'),
     url(r'^admin/', include(admin.site.urls)),
-]
+] + static(settings.STATIC_URL)

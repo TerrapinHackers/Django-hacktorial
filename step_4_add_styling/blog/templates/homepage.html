@@ -1,22 +1,21 @@
-<html>
-    <body>
-        <div class="homepage-title">
-            My Personal Blog
+{% extends 'base.html' %}
+{% block body %}
+  <div class="homepage-title">
+      My Personal Blog
+  </div>
+  {% for entry in entries %}
+    <a href="/posts/{{ entry.id }}">
+        <div class="title">
+            {{ entry.title  }}
         </div>
-        {% for entry in entries %}
-          <a href="/posts/{{ entry.id }}">
-              <div class="title">
-                  {{ entry.title  }}
-              </div>
-          </a>
-          <div class="date">
-               {{ entry.date }}
-          </div>
-          <div class="content">
-               {{ entry.content }}
-          </div>
-        {% endfor %}
-    </body>
-</html>
+    </a>
+    <div class="date">
+         {{ entry.date }}
+    </div>
+    <div class="content">
+         {{ entry.content }}
+    </div>
+  {% endfor %}
+{% endblock %}
 
 
